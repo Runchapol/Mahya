@@ -245,6 +245,24 @@ body::-webkit-scrollbar-track {
 	z-index: 4;
 	transition: 0.5s;
 }
+.set02{
+	position: absolute;
+	width: auto;
+	height: 5vw;
+	right: 20vw;
+	top: 245vw;
+	z-index: 6;
+	transition: 0.5s;
+}
+.set01{
+	position: absolute;
+	width: auto;
+	height: 4vw;
+	left: 43vw;
+	top: 173vw;
+	z-index: 6;
+	transition: 0.5s;
+}
 .bg2{
 	position: absolute;
 	top: 0;
@@ -438,6 +456,7 @@ body::-webkit-scrollbar-track {
   height: 10vw;
 }
 .SP6{
+  transition: 0.5s;
   position: absolute;
   z-index: 4;
   left: 60vw;
