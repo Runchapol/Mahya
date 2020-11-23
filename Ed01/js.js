@@ -1,3 +1,15 @@
+function change(){
+	document.getElementById("an1").style.opacity = 0;
+	document.getElementById("an2").style.opacity = 1;
+	document.getElementById("an3").style.display = "none";
+	document.getElementById("an4").style.opacity = 1;
+	document.getElementById("an4").style.left = "0";
+	document.getElementById("an5").style.opacity = 1;
+	document.getElementById("an5").style.left = "37vw";
+	document.getElementById("an6").style.opacity = 1;
+	document.getElementById("an6").style.right = "0vw";
+}
+
 function cl(){
 	var modal = document.getElementById("myModal");
 	modal.style.display = "none";
