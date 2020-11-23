@@ -298,3 +298,84 @@ body{
 	background-color: ;
 	padding: 50px 16px;
 }
+
+.Eff1:hover , .Eff2:hover , .Eff3:hover, .Eff4:hover , .SP1:hover , .SP2:hover , .setpun1:hover , .SP4:hover , .SP5:hover , .SP6:hover{
+    cursor: url(rc.cur), auto;
+    filter: drop-shadow(0 0 50px crimson);
+}
+.setpun1{
+  transition: 0.5s;
+  position: absolute;
+  z-index: 4;
+  top: 25vw;
+  left: 57vw;
+}
+.setpun2{
+  position: absolute;
+  z-index: 3;
+  top: 30vw;
+}
+.setpun3{
+  position: absolute;
+  z-index: 5;
+  left: 57vw;
+  top: 53vw;
+}
+.setpun4{
+  position: absolute;
+  z-index: 4;
+  left: 15vw;
+  top: 65vw;
+}
+.setpun5{
+  position: absolute;
+  z-index: 4;
+  left: 52vw;
+  top: 215vw;
+}
+.SP1{
+  transition: 0.5s;
+  position: absolute;
+  z-index: 4;
+  left: 20vw;
+  top: 35vw;
+}
+.SP2{
+  transition: 0.5s;
+  position: absolute;
+  z-index: 4;
+  left: 22vw;
+  top: 53vw;
+}
+.SP3{
+  position: absolute;
+  z-index: 4;
+  left: 70vw;
+  top: 165vw;
+}
+.SP7{
+  position: absolute;
+  z-index: 4;
+  left: 80vw;
+  top: 315vw;
+}
+.SP4{
+  transition: 0.5s;
+  position: absolute;
+  z-index: 4;
+  left: 35vw;
+  top: 215vw;
+}
+.SP5{
+  transition: 0.5s;
+  position: absolute;
+  z-index: 4;
+  left: 32vw;
+  top: 230vw;
+}
+.SP6{
+  position: absolute;
+  z-index: 4;
+  left: 60vw;
+  top: 245vw;
+}
