@@ -132,6 +132,135 @@ function info(n){
 						    	</div>
 									`
   	}
+  	else if (n == 5) {
+    textBoxHead.innerHTML = `<img src="pop/text/t02.png" style="position:relative;left:29vw;">
+    						<span class="close" onclick="cl()">&times;</span>`
+    textBoxDetail.innerHTML = `<div class="row">
+						    		<div class="col-6">
+						    			<img src="pop/img/0.1.png" class="mid">
+						    		</div>
+						    		<div class="col-6">
+						    			<img src="pop/text/t02-1.png" class="mid">
+						    		</div>
+						    	</div>
+									`
+  	}
+  	else if (n == 6) {
+    textBoxHead.innerHTML = `<img src="pop/text/t03.png" style="position:relative;left:23vw;">
+    						<span class="close" onclick="cl()">&times;</span>`
+    textBoxDetail.innerHTML = `<div class="row">
+						    		<div class="col-6">
+						    			<img src="pop/img/0.3.png" class="mid">
+						    		</div>
+						    		<div class="col-6">
+						    			<img src="pop/text/t03-1.png" class="mid">
+						    		</div>
+						    	</div>
+									`
+  	}
+  	else if(n == 7){
+    textBoxHead.innerHTML = `<img src="pop/text/s01.png" style="position:relative;left:11vw;">
+    						<span class="close" onclick="cl()">&times;</span>`
+    textBoxDetail.innerHTML = `<div class="row">
+						    		<div class="col-6">
+						    			<img src="pop/img/1.1.png" class="mid">
+						    		</div>
+						    		<div class="col-6"><br><br><br><br><br><br><br><br><br>
+						    			<img src="pop/text/s01-1.png" class=>
+						    		</div>
+						    	</div>
+						    	<div class="row">
+						    		<div class="col-6">
+						    			<img src="pop/img/1.2.png" class="mid">
+						    		</div>
+						    		<div class="col-6"><br><br><br><br><br><br><br><br><br>
+						    			<img src="pop/text/s01-2.png" class=>
+						    		</div>
+						    	</div>
+						    	<div class="row">
+						    		<div class="col-6">
+						    			<img src="pop/img/1.3.png" class="mid">
+						    		</div>
+						    		<div class="col-6"><br><br><br><br><br><br><br><br><br>
+						    			<img src="pop/text/s01-3.png" class=>
+						    		</div>
+						    	</div>
+									`
+  	}
+  	else if(n == 8){
+    textBoxHead.innerHTML = `<img src="pop/text/s02.png" style="position:relative;left:11vw;">
+    						<span class="close" onclick="cl()">&times;</span>`
+    textBoxDetail.innerHTML = `<div class="row">
+						    		<div class="col-6">
+						    			<img src="pop/img/2.1.png" class="mid">
+						    		</div>
+						    		<div class="col-6"><br><br><br><br><br><br><br><br><br>
+						    			<img src="pop/text/s02-1.png" class=>
+						    		</div>
+						    	</div><br><br>
+						    	<div class="row">
+						    		<div class="col-6">
+						    			<img src="pop/img/2.2.png" class="mid">
+						    		</div>
+						    		<div class="col-6"><br><br><br><br><br><br><br><br><br>
+						    			<img src="pop/text/s02-2.png" class=>
+						    		</div>
+						    	</div><br><br>
+						    	<div class="row">
+						    		<div class="col-6">
+						    			<img src="pop/img/2.4.png" class="mid">
+						    		</div>
+						    		<div class="col-6"><br><br><br><br><br><br><br><br><br>
+						    			<img src="pop/text/s02-3.png" class=>
+						    		</div>
+						    	</div><br><br>
+						    	<div class="row">
+						    		<div class="col-6">
+						    			<img src="pop/img/2.3.png" class="mid">
+						    		</div>
+						    		<div class="col-6"><br><br><br><br><br><br><br><br><br>
+						    			<img src="pop/text/s02-4.png" class=>
+						    		</div>
+						    	</div>
+									`
+  	}
+  	else if(n == 9){
+    textBoxHead.innerHTML = `<img src="pop/text/s03.png" style="position:relative;left:11vw;">
+    						<span class="close" onclick="cl()">&times;</span>`
+    textBoxDetail.innerHTML = `<div class="row">
+						    		<div class="col-6">
+						    			<img src="pop/img/3.1.png" class="mid">
+						    		</div>
+						    		<div class="col-6"><br><br><br><br><br><br><br><br><br>
+						    			<img src="pop/text/s03-1.png" class=>
+						    		</div>
+						    	</div><br><br>
+						    	<div class="row">
+						    		<div class="col-6">
+						    			<img src="pop/img/3.2.png" class="mid">
+						    		</div>
+						    		<div class="col-6"><br><br><br><br><br><br><br><br><br>
+						    			<img src="pop/text/s03-2.png" class=>
+						    		</div>
+						    	</div><br><br>
+						    	<div class="row">
+						    		<div class="col-6">
+						    			<img src="pop/img/3.3.png" class="mid">
+						    		</div>
+						    		<div class="col-6"><br><br><br><br><br><br><br><br><br>
+						    			<img src="pop/text/s03-3.png" class=>
+						    		</div>
+						    	</div><br><br>
+						    	<div class="row">
+						    		<div class="col-6">
+						    			<img src="pop/img/3.4.png" class="mid">
+						    		</div>
+						    		<div class="col-6"><br><br><br><br><br><br><br><br><br>
+						    			<img src="pop/text/s03-4.png" class=>
+						    		</div>
+						    	</div>
+									`
+  	}
   	else { 
 		textBoxHead.innerHTML = ''
     	textBoxDetail.innerHTML = ''

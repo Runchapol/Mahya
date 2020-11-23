@@ -16,25 +16,7 @@ body{
 	margin-right: auto;
 	display: block;
 }
-.ul {
-    position: fixed;
-    right: 1rem;
-    top: 30%;
-    z-index: 100;
-    width: 10%;
-}
-.navig:hover {
-    filter: drop-shadow(0 0 7px rgb(255, 255, 255, 1));
-    fill: rgb(255, 255, 255, 1);
-}
 
-.navig {
-    transition: .3s;
-    fill: rgb(255, 255, 255, 0);
-}
-.sli:hover {
-    cursor: url(rc.cur), auto;
-}
 .go{
 	transition: .5s;
 }
@@ -189,11 +171,16 @@ body{
 	transition: 0.5s;
 }
   @keyframes Eff2{
-  
+  	0%{transform: rotate(0deg); left: -3.2vw}
+  	20%{transform: rotate(2deg); left: -3.0vw}
+  	40%{transform: rotate(0deg); left: -3.2vw}
+  	60%{transform: rotate(2deg); left: -3vw}
+  	80%{transform: rotate(1deg); left: -3.1vw}
+  	100%{transform: rotate(0deg); left: -3.2vw}
 }
 .Eff3{
 	position: absolute;
-	animation: Eff3 10s linear infinite;
+	animation: Eff3 5s linear infinite;
 	top:43vw;
 	right: -2vw;
 	z-index: 8;
@@ -202,11 +189,17 @@ body{
 	transition: 0.5s;
 }
   @keyframes Eff3{
-  
+  	0%{transform: rotate(0deg); right: -2vw; top: 43vw;}
+  	20%{transform: rotate(1deg); right: -0vw; top: 42.5vw;}
+  	40%{transform: rotate(0deg); right: -2vw; top: 43vw;}
+  	60%{transform: rotate(-1deg); right: -0vw; top: 43.5vw;}
+  	80%{transform: rotate(0deg); right: -1vw; top: 43vw;}
+  	90%{transform: rotate(0.5deg); right: -1.5vw; top: 42.75vw;}
+  	100%{transform: rotate(0deg); right: -2vw; top: 43vw;}
 }
 .Eff4{
 	position: absolute;
-	animation: Eff4 10s linear infinite;
+	animation: Eff4 7s linear infinite;
 	top: 57vw;
 	right: 8vw;
 	z-index: 8;
@@ -215,7 +208,13 @@ body{
 	transition: 0.5s;
 }
   @keyframes Eff4{
-  
+  	0%{transform: rotate(0deg); right: 8vw; top: 57vw;}
+  	20%{transform: rotate(-1deg); right: 8.5vw; top: 57.5vw;}
+  	40%{transform: rotate(0deg); right: 8vw; top: 57vw;}
+  	60%{transform: rotate(1deg); right: 7.5vw; top: 56.5vw;}
+  	80%{transform: rotate(0deg); right: 8vw; top: 57vw;}
+  	90%{transform: rotate(-0.5deg); right: 8.5vw; top: 57.25vw;}
+  	100%{transform: rotate(0deg); right: 8vw; top: 57vw;}
 }
 .set04{
 	position: absolute;
@@ -275,7 +274,7 @@ body{
 
 /* The Close Button */
 .close {
-  color: white;
+  color: #2f4fff;
   float: right;
   font-size: 40px;
   font-weight: bold;
@@ -283,7 +282,7 @@ body{
 
 .close:hover,
 .close:focus {
-  color: #000;
+  color: #2fabff;
   text-decoration: none;
   cursor: pointer;
 }
@@ -310,6 +309,14 @@ body{
   top: 25vw;
   left: 57vw;
   height: 30vw;
+  animation: setpun1 5s linear infinite;
+}
+@keyframes setpun1{
+  	0%{ left: 57vw;}
+  	25%{ left: 56vw;}
+  	50%{ left: 57vw;}
+  	75%{ left: 58vw;}
+  	100%{ left: 57vw;}
 }
 .setpun2{
   position: absolute;
@@ -346,6 +353,16 @@ body{
   left: 20vw;
   top: 35vw;
   height: 7vw;
+  animation: SP1 2s linear infinite;
+}
+@keyframes SP1{
+  	0%{transform: rotate(0deg); left: 20vw; top: 35vw;}
+  	20%{transform: rotate(10deg); left: 19.5vw; top: 35vw;}
+  	40%{transform: rotate(0deg); left: 20vw; top: 35vw;}
+  	60%{transform: rotate(-10deg); left: 20.5vw; top: 35vw;}
+  	80%{transform: rotate(0deg); left: 20vw; top: 35vw;}
+  	90%{transform: rotate(5deg); left: 19.5vw; top: 35vw;}
+  	100%{transform: rotate(0deg); left: 20vw; top: 35vw;}
 }
 .SP2{
   transition: 0.5s;
@@ -354,6 +371,19 @@ body{
   left: 22vw;
   top: 53vw;
   height: 12vw;
+  animation: SP2 2s linear infinite;
+}
+@keyframes SP2{
+  	0%{ top: 53vw;}
+  	10%{ top: 52.25vw;}
+  	20%{ top: 53.25vw;}
+  	30%{ top: 52.25vw;}
+  	40%{ top: 53vw;}
+  	60%{ top: 53vw;}
+  	70%{ top: 52.25vw;}
+  	80%{ top: 53.25vw;}
+  	90%{ top: 52.25vw;}
+  	100%{ top: 53vw;}
 }
 .SP3{
   position: absolute;
