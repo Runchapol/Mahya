@@ -13,23 +13,17 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div style="background-color: blue;height: 200px; width: 200px;" id="myBtn"></div>
+	<div style="background-color: blue;height: 200px; width: 200px;" id="myBtn" onclick="info(2)"></div>
+	<div style="background-color: red;height: 200px; width: 200px;" id="myBtn" onclick="info(1)"></div>
 
 	<div id="myModal" class="modal">
 	  <div class="modal-content">
-	    <div class="modal-header">
-	    	<img src="pop/text/t01.png">
+	    <div class="modal-header" id="Thead">
+	    	
 	      	<span class="close">&times;</span>
 	    </div>
-	    <div class="modal-body">
-	    	<div class="row">
-	    		<div class="col-6">
-	    			<img src="pop/img/0.2.png" class="mid">
-	    		</div>
-	    		<div class="col-6">
-	    			<img src="pop/text/t01-1.png" class="mid">
-	    		</div>
-	    	</div>
+	    <div class="modal-body" id="Tbody">
+
 	    </div>
 	  </div>
 

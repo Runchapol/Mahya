@@ -163,7 +163,7 @@ body{
 	left: 15vw;
 	width: auto;
 	height: 15vw;
-	z-index: 10;
+	z-index: 11;
 	transition: 0.5s;
   }
   @keyframes Eff1 { 
@@ -236,7 +236,7 @@ body{
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  z-index: 100; /* Sit on top */
   padding-top: 100px; /* Location of the box */
   left: 0;
   top: 0;
@@ -277,7 +277,7 @@ body{
 .close {
   color: white;
   float: right;
-  font-size: 28px;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -289,16 +289,16 @@ body{
 }
 
 .modal-header {
-  background-color: #5cb85c;
+  background-color: #bee2df;
   color: white;
   padding-left: 50px;
 }
 
 .modal-body {
-	background-color: ;
+	background-color: #bee2df ;
 	padding: 50px 16px;
 }
-
+/**/
 .Eff1:hover , .Eff2:hover , .Eff3:hover, .Eff4:hover , .SP1:hover , .SP2:hover , .setpun1:hover , .SP4:hover , .SP5:hover , .SP6:hover{
     cursor: url(rc.cur), auto;
     filter: drop-shadow(0 0 50px crimson);
