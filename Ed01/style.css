@@ -309,29 +309,35 @@ body{
   z-index: 4;
   top: 25vw;
   left: 57vw;
+  height: 30vw;
 }
 .setpun2{
   position: absolute;
   z-index: 3;
   top: 30vw;
+  height: 70vw;
 }
 .setpun3{
   position: absolute;
   z-index: 5;
   left: 57vw;
   top: 53vw;
+  height: 5vw;
 }
 .setpun4{
   position: absolute;
   z-index: 4;
   left: 15vw;
   top: 65vw;
+  height: 7vw;
 }
 .setpun5{
   position: absolute;
   z-index: 4;
   left: 52vw;
   top: 215vw;
+  height: 4vw;
+
 }
 .SP1{
   transition: 0.5s;
@@ -339,6 +345,7 @@ body{
   z-index: 4;
   left: 20vw;
   top: 35vw;
+  height: 7vw;
 }
 .SP2{
   transition: 0.5s;
@@ -346,18 +353,21 @@ body{
   z-index: 4;
   left: 22vw;
   top: 53vw;
+  height: 12vw;
 }
 .SP3{
   position: absolute;
   z-index: 4;
   left: 70vw;
   top: 165vw;
+  height: 5vw;
 }
 .SP7{
   position: absolute;
   z-index: 4;
   left: 80vw;
   top: 315vw;
+  height: 4vw;
 }
 .SP4{
   transition: 0.5s;
@@ -365,6 +375,7 @@ body{
   z-index: 4;
   left: 35vw;
   top: 215vw;
+  height: 30vw;
 }
 .SP5{
   transition: 0.5s;
@@ -372,10 +383,12 @@ body{
   z-index: 4;
   left: 32vw;
   top: 230vw;
+  height: 10vw;
 }
 .SP6{
   position: absolute;
   z-index: 4;
   left: 60vw;
   top: 245vw;
+  height: 13vw;
 }
