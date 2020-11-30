@@ -272,6 +272,24 @@ body::-webkit-scrollbar-track {
   z-index: 6;
   transition: 0.5s;
 }
+.set07{
+  position: absolute;
+  width: auto;
+  height: 4vw;
+  left: 45vw;
+  top: 58vw;
+  z-index: 10;
+  transition: 0.5s;
+}
+.set08{
+  position: absolute;
+  width: auto;
+  height: 4vw;
+  left: 18vw;
+  top: 67vw;
+  z-index: 10;
+  transition: 0.5s;
+}
 .bg2{
 	position: absolute;
 	top: 0;
@@ -351,7 +369,7 @@ body::-webkit-scrollbar-track {
     cursor: url(rc.cur), auto;
     filter: drop-shadow(0 0 50px crimson);
 }
-.set06:hover,.set07:hover,.set08:hover{
+.set06:hover,.set07:hover,.set08:hover,.setpun3:hover,.setpun4:hover{
     cursor: url(rc.cur), auto;
     filter: drop-shadow(0 0 50px crimson);
     transform: scale(1.2);
@@ -384,6 +402,7 @@ body::-webkit-scrollbar-track {
   left: 57vw;
   top: 53vw;
   height: 5vw;
+  transition: 0.5s;
 }
 .setpun4{
   position: absolute;
@@ -391,6 +410,7 @@ body::-webkit-scrollbar-track {
   left: 15vw;
   top: 65vw;
   height: 7vw;
+  transition: 0.5s;
 }
 .setpun5{
   position: absolute;
