@@ -262,6 +262,25 @@ body::-webkit-scrollbar-track {
 	top: 173vw;
 	z-index: 6;
 	transition: 0.5s;
+  animation: set1 2s linear infinite;
+}
+@keyframes set1{
+    0%{ left: 43vw;}
+    24%{ left: 43vw;}
+    25%{ left: 42.5vw;}
+    27%{ left: 43.5vw;}
+    29%{ left: 42.5vw;}
+    31%{ left: 43.5vw;}
+    33%{ left: 42.5vw;}
+    34%{ left: 43vw;}
+    75%{ left: 43vw;}
+    77%{ left: 43.5vw;}
+    79%{ left: 42.5vw;}
+    81%{ left: 43.5vw;}
+    83%{ left: 42.5vw;}
+    85%{ left: 43.5vw;}
+    86%{ left: 43vw;}
+    100%{ left: 43vw;}
 }
 .set06{
   position: absolute;
@@ -271,6 +290,25 @@ body::-webkit-scrollbar-track {
   top: 33vw;
   z-index: 6;
   transition: 0.5s;
+  animation: set6 5s linear infinite;
+}
+@keyframes set6{
+    0%{ left: 33vw;}
+    14%{ left: 33vw;}
+    15%{ left: 32.5vw;}
+    17%{ left: 33.5vw;}
+    19%{ left: 32.5vw;}
+    21%{ left: 33.5vw;}
+    23%{ left: 32.5vw;}
+    24%{ left: 33vw;}
+    65%{ left: 33vw;}
+    67%{ left: 33.5vw;}
+    69%{ left: 32.5vw;}
+    71%{ left: 33.5vw;}
+    73%{ left: 32.5vw;}
+    75%{ left: 33.5vw;}
+    76%{ left: 33vw;}
+    100%{ left: 33vw;}
 }
 .set07{
   position: absolute;
@@ -280,6 +318,25 @@ body::-webkit-scrollbar-track {
   top: 58vw;
   z-index: 10;
   transition: 0.5s;
+  animation: set7 5s linear infinite;
+}
+@keyframes set7{
+    0%{ left: 45vw;}
+    24%{ left: 45vw;}
+    25%{ left: 44.5vw;}
+    27%{ left: 45.5vw;}
+    29%{ left: 44.5vw;}
+    31%{ left: 45.5vw;}
+    33%{ left: 44.5vw;}
+    34%{ left: 45vw;}
+    75%{ left: 45vw;}
+    77%{ left: 45.5vw;}
+    79%{ left: 44.5vw;}
+    81%{ left: 45.5vw;}
+    83%{ left: 44.5vw;}
+    85%{ left: 45.5vw;}
+    86%{ left: 45vw;}
+    100%{ left: 45vw;}
 }
 .set08{
   position: absolute;
@@ -289,6 +346,25 @@ body::-webkit-scrollbar-track {
   top: 67vw;
   z-index: 10;
   transition: 0.5s;
+  animation: set8 5s linear infinite;
+}
+@keyframes set8{
+    0%{ left: 18vw;}
+    34%{ left: 18vw;}
+    35%{ left: 17.5vw;}
+    37%{ left: 18.5vw;}
+    39%{ left: 17.5vw;}
+    41%{ left: 18.5vw;}
+    43%{ left: 17.5vw;}
+    44%{ left: 18vw;}
+    85%{ left: 18vw;}
+    87%{ left: 18.5vw;}
+    89%{ left: 17.5vw;}
+    91%{ left: 18.5vw;}
+    93%{ left: 17.5vw;}
+    95%{ left: 18.5vw;}
+    96%{ left: 18vw;}
+    100%{ left: 18vw;}
 }
 .bg2{
 	position: absolute;
@@ -365,11 +441,11 @@ body::-webkit-scrollbar-track {
 	padding: 50px 16px;
 }
 /**/
-.Eff1:hover , .Eff2:hover , .Eff3:hover, .Eff4:hover , .SP1:hover , .SP2:hover , .setpun1:hover , .SP4:hover , .SP5:hover , .SP6:hover{
+.Eff1:hover , .Eff2:hover , .Eff3:hover, .Eff4:hover , .setpun10:hover, .SP1:hover, .SP2:hover , .setpun1:hover , .SP4:hover , .SP5:hover , .SP6:hover{
     cursor: url(rc.cur), auto;
     filter: drop-shadow(0 0 50px crimson);
 }
-.set06:hover,.set07:hover,.set08:hover,.setpun3:hover,.setpun4:hover{
+.set06:hover,.set07:hover,.set08:hover,.setpun3:hover,.setpun4:hover,.setpun5:hover,.setpun6:hover,.setpun8:hover,.setpun9:hover{
     cursor: url(rc.cur), auto;
     filter: drop-shadow(0 0 50px crimson);
     transform: scale(1.2);
@@ -393,8 +469,32 @@ body::-webkit-scrollbar-track {
 .setpun2{
   position: absolute;
   z-index: 3;
-  top: 30vw;
+  top: 32vw;
   height: 70vw;
+}
+.setpun7{
+  position: absolute;
+  z-index: 2;
+  top: 35vw;
+  height: 50vw;
+  width: auto;
+}
+.setpun11{
+  position: absolute;
+  z-index: 2;
+  top: 58vw;
+  left: 45vw;
+  height: 25vw;
+  width: auto;
+}
+.setpun10{
+  transition: 0.5s;
+  position: absolute;
+  z-index: 3;
+  top: 30vw;
+  left: 5vw;
+  height: 20vw;
+  width: auto;
 }
 .setpun3{
   position: absolute;
@@ -403,6 +503,25 @@ body::-webkit-scrollbar-track {
   top: 53vw;
   height: 5vw;
   transition: 0.5s;
+  animation: setpun3 5s linear infinite;
+}
+@keyframes setpun3{
+    0%{ left: 57vw;}
+    24%{ left: 57vw;}
+    25%{ left: 56.5vw;}
+    27%{ left: 57.5vw;}
+    29%{ left: 56.5vw;}
+    31%{ left: 57.5vw;}
+    33%{ left: 56.5vw;}
+    34%{ left: 57vw;}
+    75%{ left: 57vw;}
+    77%{ left: 57.5vw;}
+    79%{ left: 56.5vw;}
+    81%{ left: 57.5vw;}
+    83%{ left: 56.5vw;}
+    85%{ left: 57.5vw;}
+    86%{ left: 57vw;}
+    100%{ left: 57vw;}
 }
 .setpun4{
   position: absolute;
@@ -411,6 +530,25 @@ body::-webkit-scrollbar-track {
   top: 65vw;
   height: 7vw;
   transition: 0.5s;
+  animation: setpun4 5s linear infinite;
+}
+@keyframes setpun4{
+    0%{ left: 15vw;}
+    14%{ left: 15vw;}
+    15%{ left: 14.5vw;}
+    17%{ left: 15.5vw;}
+    19%{ left: 14.5vw;}
+    21%{ left: 15.5vw;}
+    23%{ left: 14.5vw;}
+    24%{ left: 15vw;}
+    65%{ left: 15vw;}
+    67%{ left: 15.5vw;}
+    69%{ left: 14.5vw;}
+    71%{ left: 15.5vw;}
+    73%{ left: 14.5vw;}
+    75%{ left: 15.5vw;}
+    76%{ left: 15vw;}
+    100%{ left: 15vw;}
 }
 .setpun5{
   position: absolute;
@@ -418,25 +556,134 @@ body::-webkit-scrollbar-track {
   left: 52vw;
   top: 215vw;
   height: 4vw;
-
+  animation: setpun5 5s linear infinite;
+  transition: 0.5s;
+}
+@keyframes setpun5{
+    0%{ left: 52vw;}
+    4%{ left: 52vw;}
+    5%{ left: 51.5vw;}
+    7%{ left: 52.5vw;}
+    9%{ left: 51.5vw;}
+    11%{ left: 52.5vw;}
+    13%{ left: 51.5vw;}
+    14%{ left: 52vw;}
+    55%{ left: 52vw;}
+    57%{ left: 52.5vw;}
+    59%{ left: 51.5vw;}
+    61%{ left: 52.5vw;}
+    63%{ left: 51.5vw;}
+    65%{ left: 52.5vw;}
+    66%{ left: 52vw;}
+    100%{ left: 52vw;}
+}
+.setpun6{
+  position: absolute;
+  z-index: 5;
+  left: 32vw;
+  top: 37vw;
+  height: 5vw;
+  transition: 0.5s;
+  animation: setpun6 5s linear infinite;
+}
+@keyframes setpun6{
+    0%{ left: 32vw;}
+    4%{ left: 32vw;}
+    5%{ left: 31.5vw;}
+    7%{ left: 32.5vw;}
+    9%{ left: 31.5vw;}
+    11%{ left: 32.5vw;}
+    13%{ left: 31.5vw;}
+    14%{ left: 32vw;}
+    55%{ left: 32vw;}
+    57%{ left: 32.5vw;}
+    59%{ left: 31.5vw;}
+    61%{ left: 32.5vw;}
+    63%{ left: 31.5vw;}
+    65%{ left: 32.5vw;}
+    66%{ left: 32vw;}
+    100%{ left: 32vw;}
+}
+.setpun8{
+  position: absolute;
+  z-index: 4;
+  left: 39vw;
+  top: 237vw;
+  height: 4vw;
+  transition: 0.5s;
+  animation: setpun8 5s linear infinite;
+}
+@keyframes setpun8{
+    0%{ left: 39vw;}
+    14%{ left: 39vw;}
+    15%{ left: 38.5vw;}
+    17%{ left: 39.5vw;}
+    19%{ left: 38.5vw;}
+    21%{ left: 39.5vw;}
+    23%{ left: 38.5vw;}
+    24%{ left: 39vw;}
+    65%{ left: 39vw;}
+    67%{ left: 39.5vw;}
+    69%{ left: 38.5vw;}
+    71%{ left: 39.5vw;}
+    73%{ left: 38.5vw;}
+    75%{ left: 39.5vw;}
+    76%{ left: 39vw;}
+    100%{ left: 39vw;}
+}
+.setpun9{
+  position: absolute;
+  z-index: 4;
+  left: 62vw;
+  top: 240vw;
+  height: 4vw;
+  transition: 0.5s;
+  animation: setpun9 5s linear infinite;
+}
+@keyframes setpun9{
+    0%{ left: 62vw;}
+    24%{ left: 62vw;}
+    25%{ left: 61.5vw;}
+    27%{ left: 62.5vw;}
+    29%{ left: 61.5vw;}
+    31%{ left: 62.5vw;}
+    33%{ left: 61.5vw;}
+    34%{ left: 62vw;}
+    75%{ left: 62vw;}
+    77%{ left: 62.5vw;}
+    79%{ left: 61.5vw;}
+    81%{ left: 62.5vw;}
+    83%{ left: 61.5vw;}
+    85%{ left: 62.5vw;}
+    86%{ left: 62vw;}
+    100%{ left: 62vw;}
 }
 .SP1{
   transition: 0.5s;
   position: absolute;
   z-index: 4;
-  left: 20vw;
-  top: 35vw;
-  height: 7vw;
-  animation: SP1 2s linear infinite;
+  left: 32vw;
+  top: 42vw;
+  height: 8vw;
+  animation: SP1 3s linear infinite;
 }
 @keyframes SP1{
-  	0%{transform: rotate(0deg); left: 20vw; top: 35vw;}
-  	20%{transform: rotate(10deg); left: 19.5vw; top: 35vw;}
-  	40%{transform: rotate(0deg); left: 20vw; top: 35vw;}
-  	60%{transform: rotate(-10deg); left: 20.5vw; top: 35vw;}
-  	80%{transform: rotate(0deg); left: 20vw; top: 35vw;}
-  	90%{transform: rotate(5deg); left: 19.5vw; top: 35vw;}
-  	100%{transform: rotate(0deg); left: 20vw; top: 35vw;}
+    0%{ left: 32vw;}
+    24%{ left: 32vw;}
+    25%{ left: 31.5vw;}
+    27%{ left: 32.5vw;}
+    29%{ left: 31.5vw;}
+    31%{ left: 32.5vw;}
+    33%{ left: 31.5vw;}
+    34%{ left: 32vw;}
+    75%{ left: 32vw;}
+    77%{ left: 32.5vw;}
+    79%{ left: 31.5vw;}
+    81%{ left: 32.5vw;}
+    83%{ left: 31.5vw;}
+    85%{ left: 32.5vw;}
+    86%{ left: 32vw;}
+    100%{ left: 32vw;}
 }
 .SP2{
   transition: 0.5s;

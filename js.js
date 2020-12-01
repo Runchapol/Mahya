@@ -175,15 +175,15 @@ function info(n){
     						<span class="close" onclick="cl()">&times;</span>`
     textBoxDetail.innerHTML = `<div class="row">
 						    		<div class="col-6">
-						    			<img src="pop/maa/1.jpg" class="mid">
+						    			<img src="pop/maa/1.png" class="mid">
 						    		</div>
 						    		<div class="col-6">
-						    			<img src="pop/maa/2.jpg" class="mid">
+						    			<img src="pop/maa/2.png" class="mid">
 						    		</div>
 						    	</div><br>
 						    	<div class="row">
 						    		<div class="col-12">
-						    			<img src="pop/maa/3.jpg" class="mid">
+						    			<img src="pop/maa/3.png" class="mid">
 						    		</div>
 						    	</div>
 									`
@@ -193,18 +193,18 @@ function info(n){
     						<span class="close" onclick="cl()">&times;</span>`
     textBoxDetail.innerHTML = `<div class="row">
 						    		<div class="col-6">
-						    			<img src="pop/maa/4.jpg" class="mid">
+						    			<img src="pop/maa/4.png" class="mid">
 						    		</div>
 						    		<div class="col-6">
-						    			<img src="pop/maa/5.jpg" class="mid">
+						    			<img src="pop/maa/5.png" class="mid">
 						    		</div>
 						    	</div><br>
 						    	<div class="row">
 						    		<div class="col-6">
-						    			<img src="pop/maa/6.jpg" class="mid">
+						    			<img src="pop/maa/6.png" class="mid">
 						    		</div>
 						    		<div class="col-6">
-						    			<img src="pop/maa/7.jpg" class="mid">
+						    			<img src="pop/maa/7.png" class="mid">
 						    		</div>
 						    	</div>
 									`
@@ -214,18 +214,18 @@ function info(n){
     						<span class="close" onclick="cl()">&times;</span>`
     textBoxDetail.innerHTML = `<div class="row">
 						    		<div class="col-6">
-						    			<img src="pop/maa/8.jpg" class="mid">
+						    			<img src="pop/maa/8.png" class="mid">
 						    		</div>
 						    		<div class="col-6">
-						    			<img src="pop/maa/9.jpg" class="mid">
+						    			<img src="pop/maa/9.png" class="mid">
 						    		</div>
 						    	</div><br>
 						    	<div class="row">
 						    		<div class="col-6">
-						    			<img src="pop/maa/10.jpg" class="mid">
+						    			<img src="pop/maa/10.png" class="mid">
 						    		</div>
 						    		<div class="col-6">
-						    			<img src="pop/maa/11.jpg" class="mid">
+						    			<img src="pop/maa/11.png" class="mid">
 						    		</div>
 						    	</div>
 									`
