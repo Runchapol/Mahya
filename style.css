@@ -744,3 +744,7 @@ body::-webkit-scrollbar-track {
   top: 245vw;
   height: 13vw;
 }
+.pop1{
+  height: 11vw;
+  width: auto;
+}
